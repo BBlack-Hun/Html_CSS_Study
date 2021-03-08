@@ -9,9 +9,78 @@ body {
 }
 
 /* navbar */
+#navbar {
+  width: 100%;
+  height: 60px;
+  padding-left: 30px;
+  float: left;
+
+  line-height: 60px;
+}
+
+#navbar img {
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#navbar #menu {
+  float: right;
+
+  line-height: 60px;
+}
+
+#navbar #menu ul {
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+  list-style: none;
+}
+
+#navbar #menu ul li {
+  float: left;
+  margin-left: 30px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#navbar #menu ul li:nth-child(n) {
+  padding-right: 30px;
+}
 
 /* hero header */
+#main img{
+  width: 100%;
+}
 
+#setitle {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Helvetica;
+  color: #545454;
+}
 /* products */
+#products {
+  width: 715px;
+  text-align: center;
+  margin: auto;
+}
 
+#products img {
+  width: 225px;
+  
+  height: 225px;
+}
 /* footer */
+#footer {
+  text-align: center;
+}
+
+#footer img:nth-child(2n) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
