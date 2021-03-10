@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+@media (max-width: 767px) {
+  #div1 {
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    background-color: #353535;
+    padding-left: 30px;
+    line-height: 60px;
+  }
+
+  #div2 {
+    height: 350px;
+    background-image: url("../images/main_img.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 10% 50px;
+    background-size: cover;
+  }
+
+  #div3 {
+    height: 320px;
+    display: block;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+
+    line-height: 320px;
+  }
+
+  #div3 #container {
+    display: inline-block;
+    line-height: normal;
+    
+    vertical-align: middle;
+  }
+
+  #div3 p {
+    margin: 0;
+  }
+  
+  #div3 #portpolio {
+    font-size: 16px;
+    color: #4a4a4a;
+  }
+
+  #div3 #title {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #1b1b1b;
+  }
+
+  #div3 #content {
+    font-size: 16px;
+    color: #7a7a7a;
+  }
+
+  #div4 {
+    height: 385px;
+    background-image: url("../images/img1.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 10% 50px;
+    background-size: cover;
+  }
+
+  #div5 {
+    height: 200px;
+    background-image: url("../images/img2.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 10% 50px;
+    background-size: cover;
+    text-align: center;
+
+    line-height: 200px;
+  }
+
+  #div5 #semilogo {
+    display: inline-block;
+    padding: 9px 40px;
+    border: 4px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    vertical-align: middle;
+
+  }
+
+  #div6 {
+    height: 200px;
+    background-image: url("../images/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (min-width: 768px) {
+  #div1 {
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    background-color: #353535;
+    padding-left: 30px;
+    line-height: 60px;
+  }
+
+  #div2 {
+    height: 562px;
+    background-image: url("../images/main_img.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 10% 50px;
+    background-size: cover;
+  }
+
+  #div3 {
+    height: 282px;
+    display: block;
+    float: right;
+    padding-left: 65px;
+    padding-right: 65px;
+    background-color: white;
+
+    line-height: 282px;
+  }
+
+  #div3 #container {
+    display: inline-block;
+    line-height: normal;
+    
+    vertical-align: middle;
+  }
+
+  #div3 p {
+    margin: 0;
+  }
+  
+  #div3 #portpolio {
+    font-size: 16px;
+    color: #4a4a4a;
+  }
+
+  #div3 #title {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #1b1b1b;
+  }
+
+  #div3 #content {
+    font-size: 16px;
+    color: #7a7a7a;
+  }
+
+  #div4 {
+    float: left;
+    width: 50%;
+    height: 360px;
+    background-image: url("../images/img1.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 10% 50px;
+    background-size: cover;
+  }
+
+  #div5 {
+    float: right;
+    height: 180px;
+    width: 50%;
+    background-image: url("../images/img2.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 10% 50px;
+    background-size: cover;
+    text-align: center;
+
+    line-height: 180px;
+  }
+
+  #div5 #semilogo {
+    display: inline-block;
+    padding: 9px 40px;
+    border: 4px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    vertical-align: middle;
+
+  }
+
+  #div6 {
+    float: right;
+    height: 180px;
+    width: 50%;
+    background-image: url("../images/img3.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 10% 50px;
+    background-size: cover;
+  }
+}
+@media (min-width: 992px) {
+  #div1 {
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    background-color: #353535;
+    padding-left: 30px;
+    line-height: 60px;
+  }
+  
+  #div2 {
+    width: 50%; 
+    height: 700px;
+    background-image: url("../images/main_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+  }
+
+  #div3 {
+    display: block;
+    float: right;
+    height: 350px;
+    width: 50%;
+    background-color: white;
+    padding-left: 65px;
+    padding-right: 65px;
+
+    line-height: 350px;
+  }
+
+  #div3 #container {
+    display: inline-block;
+    line-height: normal;
+    
+    vertical-align: middle;
+  }
+
+  #div3 p {
+    margin: 0;
+  }
+  
+  #div3 #portpolio {
+    font-size: 16px;
+    color: #4a4a4a;
+  }
+
+  #div3 #title {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #1b1b1b;
+  }
+
+  #div3 #content {
+    font-size: 16px;
+    color: #7a7a7a;
+  }
+
+  #div4 {
+    float: left;
+    width: 25%;
+    height: 350px;
+    background-image: url("../images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #div5 {
+    margin: 0;
+    float: right;
+    width: 25%;
+    height: 175px;
+    background-image: url("../images/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    text-align: center;
+
+    line-height: 175px;
+  }
+
+  #div5 #semilogo {
+    display: inline-block;
+    padding: 9px 40px;
+    border: 4px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    vertical-align: middle;
+
+  }
+
+  #div6 {
+    float: right;
+    width: 25%;
+    height: 175px;
+    background-image: url("../images/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

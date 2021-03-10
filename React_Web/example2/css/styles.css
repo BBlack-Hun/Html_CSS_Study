@@ -1,0 +1,114 @@
+body {
+  height: 969px;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  #div1 {
+    height: 60px;
+    background-color: red;
+  }
+
+  #div2 {
+    height: 350px;
+    background-color: orange;
+  }
+
+  #div3 {
+    height: 320px;
+    background-color: yellow;
+  }
+
+  #div4 {
+    height: 385px;
+    background-color: green;
+  }
+
+  #div5 {
+    height: 200px;
+    background-color: blue;
+  }
+
+  #div6 {
+    height: 200px;
+    background-color: purple;
+  }
+}
+@media (min-width: 768px) {
+  #div1 {
+    height: 60px;
+    background-color: red;
+  }
+
+  #div2 {
+    height: 562px;
+    background-color: orange;
+  }
+
+  #div3 {
+    height: 282px;
+    background-color: yellow;
+  }
+
+  #div4 {
+    float: left;
+    width: 50%;
+    height: 360px;
+    background-color: green;
+  }
+
+  #div5 {
+    float: right;
+    height: 180px;
+    width: 50%;
+    background-color: blue;
+  }
+
+  #div6 {
+    float: right;
+    height: 180px;
+    width: 50%;
+    background-color: purple;
+  }
+}
+@media (min-width: 992px) {
+  #div1 {
+    height: 60px;
+    background-color: red;
+  }
+  
+  #div2 {
+    width: 50%; 
+    height: 700px;
+    background-color: orange;
+    float: left;
+  }
+
+  #div3 {
+    float: right;
+    height: 350px;
+    width: 50%;
+    background-color: yellow;
+  }
+
+  #div4 {
+    float: left;
+    width: 25%;
+    height: 350px;
+    background-color: green;
+  }
+
+  #div5 {
+    float: right;
+    width: 25%;
+    height: 175px;
+    background-color: blue;
+  }
+
+  #div6 {
+    float: right;
+    width: 25%;
+    height: 175px;
+    background-color: purple;
+  }
+}
