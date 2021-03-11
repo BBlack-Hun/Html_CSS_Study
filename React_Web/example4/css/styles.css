@@ -1,3 +1,95 @@
 body {
   font-family: 'Noto Sans KR', sans-serif;
 }
+
+#carouselExampleIndicators .carousel-inner .carousel-item{
+  height: 400px;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item .carousel-caption {
+  padding: 0;
+  bottom: 27.9%;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item h5{
+  font-size: 32px;
+  color: white;
+  margin-bottom: 18px;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item p{
+  font-size: 22px;
+  color: white;
+  margin-bottom: 48px;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item button {
+  font-size: 16px;
+  color: white;
+  padding: 10px 30px;
+  background-color: #5900e7;
+  border: none;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item #cooking{
+  height: 100%;
+  width: 100%;
+  background-position: left center;
+}
+#carouselExampleIndicators .carousel-inner #makeup {
+  width: 100%;
+  height: 100%;
+  background-position: center top;
+}
+
+#carouselExampleIndicators .carousel-inner #guitar {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+}
+
+/* 경고문구 */
+.container {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.container .alert {
+  width: 100%;
+}
+
+.container .info-box {
+  display: block;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  /*padding: 0 15px;*/
+  /*grid 기본 패딩이 좌우 15px씩이다.*/
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.container .info-box img {
+  width: 100%;
+}
+
+.container .info {
+  padding: 10px;
+}
+
+.container .info p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #4a4a4a;
+}
+
+.container .info img {
+      /*vertical-align: middle;*/
+  /*bootstrap scss파일에 설정되어 있어서 불필요한 코드*/
+  width: 20px;
+  height: 20px;
+}
+.container .info span {
+  font-size: 13px;
+  color: #4a4a4a;
+  vertical-align: middle;
+}
